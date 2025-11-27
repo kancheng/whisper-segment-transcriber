@@ -34,6 +34,8 @@ Ensures consistent loading and resampling to 16 kHz.
 ### FFmpeg  
 The script depends on FFmpeg for decoding audio formats.
 
+- https://www.gyan.dev/ffmpeg/builds/
+
 Check installation:
 ```bash
 ffmpeg -version
@@ -185,7 +187,6 @@ This project is powered by **OpenAI Whisper**
 這個專案提供一個簡單高效的腳本，可使用 **OpenAI Whisper** 對長音檔進行語音辨識。
 透過將音訊檔切成固定秒數的段落，每處理完一段就立刻將辨識結果寫入 `.txt` 檔，**不需要等待整個音檔處理完畢**，非常適合處理長時間錄音，例如課堂錄音、會議、訪談、Podcast、一般語音紀錄等。
 
----
 
 ## 🚀 功能特色
 
@@ -212,7 +213,7 @@ This project is powered by **OpenAI Whisper**
 
 ### FFmpeg
 
-腳本依賴 FFmpeg 解碼音訊格式，請先安裝：
+腳本依賴 FFmpeg 解碼音訊格式，請先安裝：https://www.gyan.dev/ffmpeg/builds/
 
 檢查是否安裝：
 
